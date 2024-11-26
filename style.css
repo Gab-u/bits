@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section nav{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+section nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+section nav ul li{
+    list-style: none;
+    margin-right: 20px;
+}
+section nav ul li a{
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+section nav ul li a:hover{
+    text-decoration: underline;
+}
+section nav ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+section main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section main .searchBox{
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+section main .searchBox .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+section main .searchBox .icons{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+    pointer-events: none;
+}
+section main .buttons{
+    margin-top: 20px;
+}
+section main .buttons input{
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    color: #555;
+    font-size: 14px;
+}
+section main .buttons input:hover{
+    border: 1px solid #ccc;
+}
+section main p{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+section main p a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+section main .languages{
+    margin-top: 30px;
+    display: flex;
+}
+section main .languages li{
+    list-style: none;
+    margin: 0 5px;
+    font-size: 13px;
+}
+section main .languages li a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+section main .languages li a:hover{
+    text-decoration: underline;
+}
+section footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+section footer .row{
+    border-top: 1px solid rgba(0,0,0,0.05);
+    padding: 15px 45px;
+}
+section footer .row.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section footer .row.row2 ul{
+    display: flex;
+}
+section footer .row.row2 ul li{
+    list-style: none;
+}
+section footer .row.row2 ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-right: 25px;
+}
+section footer .row.row2 ul:nth-child(2) li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #5f6368;
+    margin-left: 25px;
+    margin-right: 0;
+}
+section footer .row.row2 ul li a:hover{
+    text-decoration: underline;
+}
