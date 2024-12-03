@@ -17,12 +17,12 @@ img{
     width: 250px;
     margin: 20px;
 }
-.text h2{
+.text-section h1{
     font-weight: 600;
     font-size: 35px;
     margin-bottom: 10px;
 }
-.text p{
+.text-section p{
     font-size: 15px;
     font-weight: 300;
 }
@@ -35,7 +35,6 @@ a{
     margin: 20px;
     color: #08988ae9;
     text-decoration: none;
-    text-transform: uppercase;
     transition: 0.5s;
     letter-spacing: 4px;
     overflow: hidden;
@@ -44,11 +43,11 @@ a{
 a:hover{
     background: #08988ae9;
     color: #fff;
-    box-shadow: 0 0 5px #03e9f4
-                0 0 25px #03e9f4
-                0 0 50px #03e9f4
-                0 0 200px #03e9f4;
-        -webkit-box-reflect: below 1px linear-gradient(transparent, #08988a3d);
+    box-shadow: 0 0 5px #08988ae9
+                0 0 25px #08988ae9
+                0 0 50px #08988ae9
+                0 0 200px #08988ae9;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #08988a4e);
 }
 a:active{
     background: #fff;
