@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form1style.css">
+    <title>form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="details-section">
+            <h1>Login</h1>
+            <form action="#">
+                <div class="inputbox">
+                    <input type="email" required placeholder="">
+                    <label>Email</label>
+                </div>
+                <div class="inputbox">
+                    <input type="password" required placeholder="">
+                    <label>Password</label>
+                </div>
+                <div class="reset-password">
+                    <a href="#">Forgot your password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register">
+                    <a href="#">Register</a>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script>
+        const container = document.querySelector('.container');
+        for (let i = 0; i < 50; i++) {
+            const span = document.createElement('span');
+            span.style.setProperty('--i', i);
+            container.appendChild(span);
+        }
+    </script>
+</body>
+</html>
