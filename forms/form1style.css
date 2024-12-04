@@ -97,7 +97,6 @@ input:focus~label, input:valid~label, input:not(:placeholder-shown) ~ label{
 }
 .register a{
     font-size: 1em;
-    text-decoration: none;
     color: #E2E2B6;
 }
 .container span{
